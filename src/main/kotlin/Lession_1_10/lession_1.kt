@@ -1,4 +1,4 @@
-package org.example
+package org.example.Lession_1_10
 
 fun main() {
     var numberOfOrders: Int = 42
