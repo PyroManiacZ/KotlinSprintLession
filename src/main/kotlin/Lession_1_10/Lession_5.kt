@@ -1,4 +1,4 @@
-package org.example
+package org.example.Lession_1_10
 
 fun main() {
     val userAge = readln().toInt()
@@ -8,7 +8,7 @@ fun main() {
     } else if (userAge == 16 || userAge == 17) {
         "Show limited content"
     } else {
-        "Back to main screen"
+        "Back to Lession_13_22.Lession_14.main screen"
     }
 //    println(resultText)
 
