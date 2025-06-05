@@ -1,18 +1,16 @@
 plugins {
-    kotlin("jvm") version "2.1.20"
+    kotlin("jvm") version "1.6.10"
 }
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
+group = "dev.androidbroadcast.coroutine"
+version = "1.0"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0")
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
